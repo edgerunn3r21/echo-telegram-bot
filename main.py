@@ -12,11 +12,11 @@ load_dotenv()
 bot = Bot(token=os.getenv("token"))
 
 # Create a router to group message handlers
-user_router = Router()
+router = Router()
 
 
 # Define a simple echo handler: replies with the same message text
-@user_router.message()
+@router.message()
 async def echo(message: Message):
     await message.answer(message.text)
 
@@ -25,7 +25,7 @@ async def echo(message: Message):
 dp = Dispatcher()
 
 # Register the router with the dispatcher
-dp.include_router(user_router)
+dp.include_router(router)
 
 
 # Main entry point of the bot: starts polling for updates
