@@ -1,22 +1,22 @@
-# Simple Aiogram Echo Bot
+# 🤖 Simple Aiogram Echo Bot
 
 This repository contains a minimal Telegram bot built using [Aiogram](https://github.com/aiogram/aiogram), an asynchronous Python framework for Telegram Bot API.
 
 The bot simply echoes any message it receives.
 
-## Features
+## ✨ Features
 
 - Replies with the same text as received (echo functionality)
 - Uses environment variables for configuration (via `.env`)
 - Organized using routers and dispatcher for extensibility
 
-## Requirements
+## ⚙️ Requirements
 
 - Python 3.8+
 - [Aiogram](https://pypi.org/project/aiogram/)
 - [python-dotenv](https://pypi.org/project/python-dotenv/)
 
-## Installation
+## 🚀 Installation
 
 1. **Clone the repository:**
 
@@ -26,6 +26,7 @@ The bot simply echoes any message it receives.
    ```
 
 2. **Create a virtual environment**
+
    ```bash
    python3 -m venv .venv
    ```
@@ -54,7 +55,7 @@ The bot simply echoes any message it receives.
    token=YOUR_TELEGRAM_BOT_TOKEN
    ```
 
-## Usage
+## ▶️ Usage
 
 Run the bot with:
 
@@ -62,7 +63,7 @@ Run the bot with:
 python main.py
 ```
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 yourbotrepo/
@@ -73,15 +74,14 @@ yourbotrepo/
 └── README.md           # This file
 ```
 
-## How It Works
+## 🛠️ How It Works
 
 - Loads the bot token from `.env`
 - Initializes the Aiogram `Bot`, `Dispatcher`, and a simple message router
 - Defines a message handler that echoes incoming messages
 - Starts polling and responding to updates
 
-
-## Support the Author ☕
+## ☕ Support the Author
 
 If you found this bot or repository useful, you can support the author:
 
