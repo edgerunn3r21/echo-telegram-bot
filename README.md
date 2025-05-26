@@ -21,8 +21,8 @@ The bot simply echoes any message it receives.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/yourbotrepo.git
-   cd yourbotrepo
+   git clone https://github.com/edgerunn3r21/echo-telegram-bot
+   cd echo-telegram-bot
    ```
 
 2. **Create a virtual environment**
